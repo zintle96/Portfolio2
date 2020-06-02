@@ -1,8 +1,6 @@
 body {
-    background-color: cadetblue;
-    margin-bottom: 5px;
+  background-color: #2b2b2b;
 }
-
 nav {
     display: flex;
     justify-content: flex-end;
@@ -16,14 +14,14 @@ nav ul li {
 
 nav ul li a {
     padding: 10px;
-    color: black;
+    color: white;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 nav a:hover {
      color: black;
-     background-color: lightgreen;
+     background-color: lightsteelblue;
 
 }
 h1 {
@@ -36,10 +34,11 @@ h1 {
 }
 
 .home-slide {
-    background-image: url('zintle.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.753)), url(zintle.jpg);
     background-size: cover;
     height: 100vh;
 }
+
 .portfolio-slide p {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -47,7 +46,7 @@ h1 {
 
 .portfolio-slide a {
     padding: 10px;
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
@@ -94,14 +93,17 @@ h1 {
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  .p {
+    color: white;
+  }
   
   .active, .collapsible:hover {
-    background-color: lightgreen;
+    background-color: lightsteelblue;
   }
   
   .content {
@@ -110,31 +112,38 @@ h1 {
     overflow: hidden;
     background-color: #f1f1f1;
   }
+  .contact {
+    background: url("https://res.cloudinary.com/dj7k0lade/image/upload/v1526689027/codepen/portfolio/map.jpg") no-repeat;
+	background-size: cover;
+  }
   .contact a {
     padding: 10px;
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 
 .contact-form {
+  background: rgba(0, 0, 0, 0.938);
+  padding-top: 90px;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   input[type=text], select, textarea {
-    width: 100%;
+    background-color: #2b2b2b;
+    width: 50%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
+    resize: horizontal;
+    color: #ccc;
   }
   
   input[type=submit] {
@@ -167,7 +176,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   position: relative;
-  background-color: rgba(0, 0, 205, 0.623);
+  background-color: black;
   color: white;
   font-weight: bold;
   font-size: 20px;
